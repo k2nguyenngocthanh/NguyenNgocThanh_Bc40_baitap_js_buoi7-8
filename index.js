@@ -184,11 +184,14 @@ function soSanh(){
         }
     }
     if (countDuong > countAm) {
-        document.querySelector("#soSanhNumber").innerHTML =`Số dương > Số âm`;
+        document.querySelector("#soSanhNumber").innerHTML =` <h2 class="mt-5 text-danger text-center">
+        Số dương > Số âm </h>`;
       } else if (countDuong < countAm) {
-        document.querySelector("#soSanhNumber").innerHTML =`Số dương < Số âm`;
+        document.querySelector("#soSanhNumber").innerHTML =` <h2 class="mt-5 text-danger text-center">
+        Số dương < Số âm </h>`;
       } else {
-        document.querySelector("#soSanhnumber").innerHTML =`Số dương = Số âm`;
+        document.querySelector("#soSanhNumber").innerHTML =` <h2 class="mt-5 text-danger text-center">
+        Số dương = Số âm </h>`;
       }
     }
   
